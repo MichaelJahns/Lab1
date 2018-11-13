@@ -21,3 +21,29 @@ footer{
     height: 80px;
     float: left;
 }
+@media screen and (min-width: 768px){
+    nav{
+        height: 100px;
+    }
+    main{
+        height: 600px;
+        width: 26.0416%;
+        float: left;
+
+    }
+    section{
+        width: 36.96%;
+        height: 200px;
+        float: left;
+    }
+    article{
+        width: 18.48%;
+        height: 250px;
+        float:left;
+    }
+    footer{
+        width: 73%;
+        height: 150px;
+        float: left;
+    }
+}
