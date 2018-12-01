@@ -1,25 +1,26 @@
-body * {
-    font-size: 60px;
+* {
+    box-sizing: border-box;
     text-align: center;
-    vertical-align: center;
-    /* outline: blue solid 3px; */
-    background-color: red;
-}
-@media screen and (min-width: 480px) and (max-width: 767px){
-    body * {
-    font-size: 60px;
-    text-align: center;
-    vertical-align: center;
-    /* outline: lightcoral solid 3px; */
-    background-color: lightblue;
+  }
+  
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  /* Media Query for Tablet */
+  @media screen and (min-width: 600px){
+    body {
+      max-width: 768px;
     }
-}
-@media screen and (min-width: 768px) and (max-width: 980px){
-    body * {
-    font-size: 60px;
-    text-align: center;
-    vertical-align: center;
-    /* outline: red solid 3px; */
-    background-color: blue;
+  }
+  
+  /* Media Query for Desktop */
+  @media screen and (min-width: 768px) {
+    body {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
     }
-}
+  }
